@@ -179,7 +179,7 @@
 
     <script>
         // CONFIGURATION: Set your anniversary date here exactly how she should type it
-        const CORRECT_PASSWORD = "06/29/2025"; 
+        const CORRECT_PASSWORD = "29/12/2020"; 
 
         function checkPassword() {
             const input = document.getElementById("password-input").value.trim();
