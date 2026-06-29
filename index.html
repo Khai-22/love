@@ -30,7 +30,7 @@
             width: 100%;
             height: 100%;
             /* REPLACE WITH YOUR UPLOADED PHOTO FILENAME */
-            background-image: url('your-uploaded-image.jpg'); 
+            background: url('photo.jpg'); 
             background-size: cover;
             background-position: center;
             filter: brightness(60%);
@@ -171,7 +171,7 @@
             <div class="audio-controls">
                 <p style="font-weight: bold; margin-bottom: 10px;">🎵 Press play to listen to our song:</p>
                 <!-- REPLACE WITH YOUR UPLOADED AUDIO FILENAME -->
-                <audio id="anniversary-music" src="your-audio-file.mp3" preload="auto"></audio>
+                <audio id="anniversary-music" src="audio.mp3.mp3" preload="auto"></audio>
                 <button id="music-btn" onclick="toggleMusic()">▶ Play Music</button>
             </div>
         </div>
